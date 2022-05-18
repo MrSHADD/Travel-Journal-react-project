@@ -23,6 +23,12 @@ export default function Destination(props){
             </div>
             
             <p className="div--des">{props.item.description}</p>
+            <hr
+        style={{
+          borderColor: 'grey',
+          height: '0px',
+        }}
+        />
             
           </div>
           
